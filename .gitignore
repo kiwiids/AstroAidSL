@@ -1,0 +1,19 @@
+# Node
+node_modules/
+dist/
+.env
+.DS_Store
+.vscode/
+.npm/
+# Python
+venv/
+__pycache__/
+*.pyc
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Build artifacts
+build/
+# OS files
+Thumbs.db
