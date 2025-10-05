@@ -14,7 +14,7 @@ export default defineConfig({
   },
   build: {
     target: 'esnext',
-    outDir: 'dist', // must be dist for gh-pages
+    outDir: 'docs', // <-- changed from 'dist' to 'docs'
     sourcemap: true, // optional, helpful for debugging
   },
   server: {
